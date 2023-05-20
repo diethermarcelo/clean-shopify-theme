@@ -1,0 +1,29 @@
+{
+  "name": "shopify-tailwind-empty-template",
+  "version": "1.0.0",
+  "description": "- A shopify e-commerce app of appliances, accessories and clothing and more.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "shopify theme dev --store=shoppers-jewel.myshopify.com",
+    "watch": "npx tailwindcss -i ./src/css/theme.css -o ./assets/theme.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "shopify",
+    "tailwind",
+    "e-commerce"
+  ],
+  "author": "Diether Marcelo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/polidario/Elizabeth_Clean/issues"
+  },
+  "homepage": "https://github.com/polidario/Elizabeth_Clean#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
